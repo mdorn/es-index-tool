@@ -1,0 +1,71 @@
+{
+    "indexName": "profiles",
+    "collection": "personas",
+    "collectionFilter": {"state": "published"},
+    "fields": {
+        "displayName": {
+            "required": true,
+            "type": "string"
+        },
+        "profileHandle": {
+            "required": true,
+            "type": "string"
+        },
+        "bioShort": {
+            "required": false,
+            "default": "",
+            "type": "string"
+        },
+        "claimed": {
+            "default": false,
+            "type": "boolean"
+        },
+        "avatar": {
+            "required": true,
+            "type": "string"
+        },
+        "gender": {
+            "required": false,
+            "default": "unspecified",
+            "type": "_filter_only"
+        },
+        "birthDate": {
+            "required": false,
+            "default": [],
+            "type": "_multi_field",
+            "transform": "age_category"
+        },
+        "channels": {
+            "required": true,
+            "type": "_multi_field",
+            "transform": "object_key",
+            "transformConfig": {
+                "key": "serviceName"
+            }
+        },
+        "topics": {
+            "required": false,
+            "default": [],
+            "type": "_multi_field"
+        },
+        "reach": {
+            "default": 0,
+            "type": "integer"
+        },
+        "createdAt": {
+            "required": true,
+            "type": "date"
+        },
+        "country": {
+            "required": false,
+            "default": "undefined",
+            "type": "_multi_field",
+            "transform": "country"
+        },
+        "details.languages": {
+            "required": false,
+            "default": "",
+            "type": "_filter_only"
+        }
+    }
+}

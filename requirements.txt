@@ -1,0 +1,4 @@
+Click>=6.0
+elasticsearch>=6.0
+pymongo>=3.6
+python-dateutil>=2.7.3

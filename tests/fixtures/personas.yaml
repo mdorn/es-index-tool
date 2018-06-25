@@ -1,0 +1,69 @@
+-
+  _id: abc123
+  profileHandle: steve
+  displayName: Steve Austin
+  bioShort: "Steve Austin is the Million Dollar Man."
+  aka:
+  - MillionDollarMan
+  avatar: https://example.com/images/profiles/avatars/2kS98AsytSXb8prbH/FFj7EMyBwN4xuoAQF.png.square.png
+  claimed: true
+  gender: male
+  languages:
+  - english
+  - french
+  channels:
+  - _id: abc123
+    serviceName: twitter
+    name: Steve Austin
+    url: https://twitter.com/steveaustin
+    reach: 7332
+  - _id: xyz456
+    serviceName: instagram
+    name: Steve Austin
+    url: https://instagram.com/steveaustin
+    reach: 1000
+  reach: 37571
+  skills:
+  - blogging
+  - social media promotion
+  topics:
+  - blogging
+  - food
+  - marketing
+  createdAt: '2017-04-29T01:19:09.950Z'
+  updatedAt: '2018-06-21T06:04:42.833Z'
+  birthDate: '1978-04-13T04:00:00.000Z'
+  country: US
+-
+  _id: xyz456
+  profileHandle: thiago
+  displayName: Thiago Silva
+  bioShort: "Thiago Silva is a Brazilian football player."
+  aka:
+  - tsilva
+  avatar: https://example.com/images/profiles/avatars/2kS98AsytSXb8prbH/FFj7EMyBwN4xuoAQF.png.square.png
+  claimed: true
+  gender: male
+  languages:
+  - portuguese
+  channels:
+  - _id: abc123
+    serviceName: twitter
+    name: T Silva
+    url: https://twitter.com/tsilva
+    reach: 1000
+  - _id: xyz456
+    serviceName: instagram
+    name: Silva
+    url: https://instagram.com/silva
+    reach: 500
+  reach: 1500
+  skills:
+  - football
+  topics:
+  - brazil
+  - football
+  createdAt: '2017-04-29T01:19:09.950Z'
+  updatedAt: '2018-06-21T06:04:42.833Z'
+  birthDate: '1988-04-13T04:00:00.000Z'
+  country: BR
